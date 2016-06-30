@@ -216,6 +216,13 @@
 			<artifactId>selenium-firefox-driver</artifactId>
 			<version>2.53.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.offbytwo.jenkins/jenkins-client -->
+		<!-- A Jenkins API client for Java -->
+		<dependency>
+    		<groupId>com.offbytwo.jenkins</groupId>
+    		<artifactId>jenkins-client</artifactId>
+    		<version>0.3.5</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<!-- Source directory configuration -->
@@ -229,7 +236,7 @@
 				<configuration>
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
-						<suiteXmlFile>C:/Users/praveen/git/GitHub/LICENSE/Desktop/eclipse/SeleniumProject/SampleProgram/src/testResources/verifyToolTipExample.xml</suiteXmlFile>
+						<suiteXmlFile>C:/Users/praveen/Desktop/GitProject/SampleProgram/pom.xml</suiteXmlFile>
 						<!-- <suiteXmlFile>suites-test-testng.xml</suiteXmlFile> -->
 					</suiteXmlFiles>
 				</configuration>
