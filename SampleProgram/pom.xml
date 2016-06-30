@@ -31,7 +31,7 @@
 		<dependency>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-surefire-plugin</artifactId>
-			<version>2.19.1</version>
+			<version>2.14.1</version>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
@@ -66,9 +66,9 @@
 		</dependency>
 		<!-- http://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>6.9.10</version>
+		    <groupId>org.testng</groupId>
+		    <artifactId>testng</artifactId>
+		    <version>6.9.10</version>
 		</dependency>
 		<!-- http://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
@@ -245,13 +245,13 @@
 			<!-- Following plugin executes the testng tests -->
 			<plugin>
 				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
-    			<groupId>org.apache.maven.plugins</groupId>
-    			<artifactId>maven-surefire-plugin</artifactId>
-    			<version>2.14.1</version>
+        		<groupId>org.apache.maven.plugins</groupId>
+        		<artifactId>maven-surefire-plugin</artifactId>
+        		<version>2.14.1</version>
 				<configuration>
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
-						<suiteXmlFile>C:\Users\praveen\Desktop\GitProject\SampleProgram\src\TestCases\verifyToolTipExample.java</suiteXmlFile>
+						<suiteXmlFile>C:\Users\praveen\Desktop\GitProject\SampleProgram\src\testResources\verifyToolTipExample.xml</suiteXmlFile>
 						<!-- <suiteXmlFile>suites-test-testng.xml</suiteXmlFile> -->
 					</suiteXmlFiles>
 				</configuration>
@@ -287,9 +287,9 @@
 		<plugins>
 			<plugin>
 				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-report-plugin -->
-    			<groupId>org.apache.maven.plugins</groupId>
-    			<artifactId>maven-surefire-report-plugin</artifactId>
-    			<version>2.19.1</version>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-surefire-report-plugin</artifactId>
+			    <version>2.14.1</version>
 			</plugin>
 		</plugins>
 	</reporting>
