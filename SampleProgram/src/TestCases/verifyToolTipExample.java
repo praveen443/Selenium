@@ -34,10 +34,9 @@ public class verifyToolTipExample {
   public void launchWebPage() {
 	  TestReporter.log("<-------- Started the TestCase execution - verifyToolTipExample. -------->");
 	  //TestReporter.log("Launch the IE browser.");
-	  //System.setProperty("webdriver.ie.driver", constants.IE_64bit_DriverPath);
-	  TestReporter.log("Launch the fire-fox browser.");
-	  driver=new FirefoxDriver();
-	  //driver = new InternetExplorerDriver();
+	  System.setProperty("webdriver.chrome.driver", constants.chromeDriverPath);
+	  TestReporter.log("Launch the Chrome browser.");
+	  driver = new ChromeDriver();
 	  TestReporter.log("Maximize the browser window.");
 	  driver.manage().window().maximize();
   }
