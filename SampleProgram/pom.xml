@@ -223,6 +223,13 @@
     		<artifactId>jenkins-client</artifactId>
     		<version>0.3.5</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.github.danielpacak.jenkins.ci/jenkins.ci.core -->
+		<!-- A Java library for communicating with the Jenkins REST API. -->
+		<dependency>
+   	 		<groupId>com.github.danielpacak.jenkins.ci</groupId>
+    		<artifactId>jenkins.ci.core</artifactId>
+    		<version>1.0.0-rc4</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<!-- Source directory configuration -->
