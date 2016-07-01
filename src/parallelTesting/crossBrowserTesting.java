@@ -9,7 +9,6 @@ public class crossBrowserTesting {
   @BeforeMethod
   public void beforeMethod() {
 	
-	  
   }
 
   @Test
