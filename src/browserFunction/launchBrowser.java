@@ -11,6 +11,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 import testResources.ConstantInput.constants;
 import Utils.TestReporter;
@@ -22,7 +24,8 @@ public class launchBrowser {
 	/*public launchBrowser(WebDriver driver) {
 		this.driver=driver;
 	}*/
-
+    @Test
+    @Parameters({"browserType"})
 	public static void getBrowserType(WebDriver driver,String browserType,String appURL){
 	
 		switch (browserType.toLowerCase()) {
