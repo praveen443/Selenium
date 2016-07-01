@@ -25,7 +25,7 @@ public class launchBrowser {
 		this.driver=driver;
 	}*/
     @Test
-    @Parameters({"browserType"})
+    @Parameters("browserType")
 	public static void getBrowserType(WebDriver driver,String browserType,String appURL){
 	
 		switch (browserType.toLowerCase()) {
