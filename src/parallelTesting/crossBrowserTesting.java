@@ -22,11 +22,11 @@ public class crossBrowserTesting {
   @Parameters({"browserType","appURL"})
   @Test(description="Cross-browser Testing",groups="Regression Tests")
   public void crossBrowserTest(String browserType, String appURL) {
-	  
 	  //Pass the parameters from xml file - browserType and appURL.
 	  TestReporter.logStep("Launch the Browser and hostURL.");
 	  launchBrowser launchBrowser = new launchBrowser();
 	  launchBrowser.getBrowserType(driver, browserType, appURL);
+
   }
   
   @AfterMethod(alwaysRun=true)
