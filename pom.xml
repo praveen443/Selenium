@@ -223,11 +223,11 @@
 			<version>2.53.0</version>
 		</dependency>
 		<!-- http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-firefox-driver</artifactId>
 			<version>2.53.0</version>
-		</dependency>
+		</dependency> -->
 		<!-- https://mvnrepository.com/artifact/com.offbytwo.jenkins/jenkins-client -->
 		<!-- A Jenkins API client for Java -->
 		<dependency>

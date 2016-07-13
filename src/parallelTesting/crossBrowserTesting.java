@@ -1,6 +1,7 @@
 package parallelTesting;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
@@ -29,7 +30,8 @@ public class crossBrowserTesting {
   }
   
   @AfterMethod
-  public void afterMethod() {
+  public void afterMethod(ITestResult result) {
+	  TestReporter.log("Close the browser instances.");
 	  if(driver!= null){
 		  driver.quit();
 	  }
