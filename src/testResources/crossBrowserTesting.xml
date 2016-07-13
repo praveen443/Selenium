@@ -3,7 +3,7 @@
 <suite name="Cross-Browser Testing" parallel="tests">
 
   <!-- Test app in Firefox driver -->
-  <test name="Test app in Firefox browser">
+  <!-- <test name="Test app in Firefox browser">
   <parameter name="browserType" value="firefox"/>
   <parameter name="appURL" value="URL"/>
     <groups>
@@ -14,7 +14,7 @@
    	<classes>
    		<class name="parallelTesting.crossBrowserTesting"/>
    	</classes>
-  </test> <!-- Test -->
+  </test> --> <!-- Test -->
   
   <!-- Test app in Chrome driver -->
   <test name="Test app in Chrome browser">
