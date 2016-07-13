@@ -265,7 +265,8 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>C:\Users\praveen\Desktop\GitProject\SampleProgram\src\testResources\jdbcConnection.xml</suiteXmlFile>
 						<suiteXmlFile>C:\Users\praveen\Desktop\GitProject\SampleProgram\src\testResources\splitStringExample.xml</suiteXmlFile>
-					</suiteXmlFiles>
+						<!-- <suiteXmlFile>C:\Users\praveen\Desktop\GitProject\SampleProgram\src\testResources\crossBrowserTesting.xml</suiteXmlFile>-->					
+ 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
 			<!-- Compiler plugin configures the java version to be used for compiling 

@@ -13,9 +13,9 @@ import browserFunction.launchBrowser;
 public class crossBrowserTesting {
   private WebDriver driver;
   
-  @BeforeMethod
+  @BeforeMethod(alwaysRun=true)
   public void beforeMethod() {
-       
+       TestReporter.logStep("Perform the Cross-browser testing.");
   }
 
   @SuppressWarnings("static-access")
@@ -29,7 +29,7 @@ public class crossBrowserTesting {
 	  launchBrowser.getBrowserType(driver, browserType, appURL);
   }
   
-  @AfterMethod
+  @AfterMethod(alwaysRun=true)
   public void afterMethod(ITestResult result) {
 	  TestReporter.log("Close the browser instances.");
 	  if(driver!= null){
