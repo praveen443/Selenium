@@ -8,7 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
@@ -27,7 +26,7 @@ public class DragAndDrop_Operation_usingActionsClass {
    * @description: Used @BeforTest annotation to print the test name 
    * before starting the test-script execution.
    */
-  @BeforeTest(alwaysRun=true)
+  @BeforeTest()
   public void beforeTest() {
 	   //To get the testMethod as testName.
 	   testName = new Object(){}.getClass().getEnclosingMethod().getName();
@@ -42,7 +41,7 @@ public class DragAndDrop_Operation_usingActionsClass {
   @SuppressWarnings("static-access")
   @Parameters({"browserType","appURL"})
   @Test(description="Drag and Drop operation Uisng Actions Class in WebDriver",
-        groups="Regression Tests",priority=1,enabled=true)
+        groups="Regression Tests")
   public void dragAndDrop_UisngActionsClass(String browserType, String appURL) {
 	  
 		 //Pass the parameters from xml file - browserType and appURL.
@@ -68,7 +67,7 @@ public class DragAndDrop_Operation_usingActionsClass {
    * @description: Used @AfterTest annotation.. to close the drivers 
    * instances after the test execution is completed.
    */
-  @AfterTest(alwaysRun=true)
+  @AfterTest()
   public void afterTest() {
 	  if(driver!=null){
 		  driver.quit();
