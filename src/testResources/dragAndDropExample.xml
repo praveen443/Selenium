@@ -4,8 +4,8 @@
   <test name="Drag And Drop Example using Actions class in Selenium">
   <parameter name="browserType" value="chrome"/>
   <parameter name="appURL" value="DragAndDrop_AppURL"/>
-  	 <classes>
-  		 <class name="dragAndDropExample.DragAndDrop_Operation_usingActionsClass"/>
-  	 </classes>
+  	  <classes>
+  		  <class name="dragAndDropExample.DragAndDrop_Operation_usingActionsClass"/>
+  	  </classes>
   </test> <!-- DragAndDropExample -->
 </suite> <!-- Suite -->
