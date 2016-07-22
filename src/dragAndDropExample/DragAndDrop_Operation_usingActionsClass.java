@@ -19,8 +19,6 @@ import Utils.TestReporter;
 public class DragAndDrop_Operation_usingActionsClass {
   private WebDriver driver;
   private String testName;
-  private WebElement Sourcelocator = driver.findElement(By.cssSelector(".ui-draggable"));
-  private WebElement Destinationlocator = driver.findElement(By.cssSelector(".ui-droppable"));
   
   /**
    * @description: Used @BeforTest annotation to print the test name 
@@ -49,10 +47,13 @@ public class DragAndDrop_Operation_usingActionsClass {
 		 launchBrowser launchBrowser = new launchBrowser();
 		 launchBrowser.getBrowserType(driver, browserType, appURL);
 		  
-		 //Wait for the frame to be available and switch to it
-		 WebDriverWait wait = new WebDriverWait(driver, 10);
-		 wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.cssSelector(".demo-frame")));
+		 /*//Wait for the frame to be available and switch to it
+		 WebDriverWait wait = new WebDriverWait(driver, 5);
+		 wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.cssSelector(".demo-frame")));*/
 		 
+		 WebElement Sourcelocator = driver.findElement(By.cssSelector(".ui-draggable"));
+		 WebElement Destinationlocator = driver.findElement(By.cssSelector(".ui-droppable"));
+		  
 		 //Perform the drag and drop opeartion using actions class in webdriver
 		 TestReporter.log("Perform the drag and drop opeartion using actions class in webdriver.");
 		 dragAndDrop(Sourcelocator,Destinationlocator);
