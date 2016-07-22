@@ -89,9 +89,9 @@ public class DragAndDrop_Operation_usingActionsClass {
 				  System.out.println("Element was not displayed to drag");
 			  }
 			
-	} catch (NoSuchElementException e) {
+	  } catch (NoSuchElementException e) {
 		System.out.println("Element " + Sourcelocator + "or" + Destinationlocator + " was not found in DOM "+ e.getStackTrace());
-    }
+      }
   
   }
   
