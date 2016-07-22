@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DragAndDrop">
+  <test name="Drag And Drop Example using Actions class in Selenium">
+  <parameter name="browserType" value="chrome"/>
+  <parameter name="appURL" value="URL"/>
+  	 <classes>
+  		 <class name="dragAndDropExample.DragAndDrop_Operation_usingActionsClass.java"/>
+  	 </classes>
+  </test> <!-- DragAndDropExample -->
+</suite> <!-- Suite -->
