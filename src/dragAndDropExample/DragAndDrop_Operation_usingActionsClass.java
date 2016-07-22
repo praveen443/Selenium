@@ -39,7 +39,6 @@ public class DragAndDrop_Operation_usingActionsClass {
 	  TestReporter.logStep("Launch the Browser and hostURL.");
 	  launchBrowser launchBrowser = new launchBrowser();
 	  launchBrowser.getBrowserType(driver, browserType, appURL);
-
   }
   
   /**
