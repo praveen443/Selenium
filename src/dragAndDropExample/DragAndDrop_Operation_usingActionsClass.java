@@ -80,7 +80,7 @@ public class DragAndDrop_Operation_usingActionsClass {
    * @author: Praveen varma Namburi
    * @param Sourcelocator, @param Destinationlocator
    */
-  private void dragAndDrop(WebElement Sourcelocator, WebElement Destinationlocator){
+  public void dragAndDrop(WebElement Sourcelocator, WebElement Destinationlocator){
 	  try {
 			  if(Sourcelocator.isDisplayed() && Destinationlocator.isDisplayed()){
 				  Actions actions = new Actions(driver);
