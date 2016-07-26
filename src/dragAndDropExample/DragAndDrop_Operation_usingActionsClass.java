@@ -40,7 +40,7 @@ public class DragAndDrop_Operation_usingActionsClass {
   @Parameters({"browserType","appURL"})
   @Test(description="Drag and Drop operation Uisng Actions Class in WebDriver",
         groups="Regression Tests")
-  public void dragAndDrop_UisngActionsClass(String browserType, String appURL) {
+  public void dragAndDrop_UsingActionsClass(String browserType, String appURL) {
 	  
 		 //Pass the parameters from xml file - browserType and appURL.
 		 TestReporter.logStep("Launch the Browser and hostURL.");

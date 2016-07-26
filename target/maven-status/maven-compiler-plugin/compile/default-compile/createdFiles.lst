@@ -21,10 +21,12 @@ Utils\WebDriverSetUp.class
 BasicJavaPrograms\HandlingPOPUPs\Handling_JavaScriptAlert_Example.class
 Utils\HighlightElement.class
 TestCases\Read_CSV_FileUsingJava.class
+dragAndDropExample\DragAndDrop_Operation_usingActionsClass$1.class
 BasicJavaPrograms\File_IO_operations\Get_ListofAllFileNames_fromGivenFolder.class
 Utils\date\SimpleDate.class
 Utils\TestListener.class
 BasicJavaPrograms\File_IO_operations\Get_SpecificFiles_FromAFolder$1.class
+dragAndDropExample\DragAndDrop_Operation_usingActionsClass.class
 Utils\FrameHandler.class
 BasicJavaPrograms\HandlingPOPUPs\Handling_ConfirmationPopUp.class
 TestCases\verifyToolTipExample.class
