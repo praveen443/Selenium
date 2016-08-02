@@ -6,4 +6,13 @@
       <class name="jdbcPrograms.ConnectJDBC"/>
     </classes>
   </test> <!-- jdbcConnection -->
+  <test name="jdbcConnection(failed)">
+    <classes>
+      <class name="jdbcPrograms.ConnectJDBC">
+        <methods>
+          <include name="setJDBCConnection"/>
+        </methods>
+      </class> <!-- jdbcPrograms.ConnectJDBC -->
+    </classes>
+  </test> <!-- jdbcConnection(failed) -->
 </suite> <!-- Failed suite [Suite] -->

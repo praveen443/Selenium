@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.856 sec
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.11 sec <<< FAILURE!
+setJDBCConnection(jdbcPrograms.ConnectJDBC)  Time elapsed: 0.259 sec  <<< FAILURE!
+java.sql.SQLSyntaxErrorException: Table 'employeemgmt.persons' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:686)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:663)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:653)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:108)
+	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2061)
+	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2014)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1424)
+	at jdbcPrograms.ConnectJDBC.setJDBCConnection(ConnectJDBC.java:52)
+
