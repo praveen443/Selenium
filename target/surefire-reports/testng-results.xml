@@ -1,81 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[2016-07-29 11:32:45.463 :: Connected to the database - 'employeemgmt'<br />]]>
+      <![CDATA[2016-08-08 11:33:17.312 :: Connected to the database - 'employeemgmt'<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-08-08 11:33:17.466 :: 2  Ravi Kumar Kukatpally Hyderbad<br />]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="274" started-at="2016-07-29T06:02:45Z" finished-at="2016-07-29T06:02:45Z">
+  <suite name="Suite" duration-ms="997" started-at="2016-08-08T06:03:16Z" finished-at="2016-08-08T06:03:17Z">
     <groups>
     </groups>
-    <test name="jdbcConnection" duration-ms="274" started-at="2016-07-29T06:02:45Z" finished-at="2016-07-29T06:02:45Z">
+    <test name="jdbcConnection" duration-ms="997" started-at="2016-08-08T06:03:16Z" finished-at="2016-08-08T06:03:17Z">
       <class name="jdbcPrograms.ConnectJDBC">
-        <test-method status="FAIL" signature="setJDBCConnection()[pri:1, instance:jdbcPrograms.ConnectJDBC@3ffc5af1]" name="setJDBCConnection" duration-ms="254" started-at="2016-07-29T11:32:45Z" finished-at="2016-07-29T11:32:45Z">
-          <exception class="java.sql.SQLSyntaxErrorException">
-            <message>
-              <![CDATA[Table 'employeemgmt.persons' doesn't exist]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.sql.SQLSyntaxErrorException: Table 'employeemgmt.persons' doesn't exist
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:686)
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:663)
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:653)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:108)
-	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2061)
-	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2014)
-	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1424)
-	at jdbcPrograms.ConnectJDBC.setJDBCConnection(ConnectJDBC.java:52)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.sql.SQLSyntaxErrorException -->
+        <test-method status="PASS" signature="setJDBCConnection()[pri:1, instance:jdbcPrograms.ConnectJDBC@3ffc5af1]" name="setJDBCConnection" duration-ms="907" started-at="2016-08-08T11:33:16Z" finished-at="2016-08-08T11:33:17Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-07-29 11:32:45.463 :: Connected to the database - 'employeemgmt'<br />]]>
+              <![CDATA[2016-08-08 11:33:17.312 :: Connected to the database - 'employeemgmt'<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-08-08 11:33:17.466 :: 2  Ravi Kumar Kukatpally Hyderbad<br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- setJDBCConnection -->
       </class> <!-- jdbcPrograms.ConnectJDBC -->
     </test> <!-- jdbcConnection -->
   </suite> <!-- Suite -->
-  <suite name="Suite (0)" duration-ms="0" started-at="2016-07-29T06:02:45Z" finished-at="2016-07-29T06:02:45Z">
+  <suite name="Suite (0)" duration-ms="0" started-at="2016-08-08T06:03:17Z" finished-at="2016-08-08T06:03:17Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="0" started-at="2016-07-29T06:02:45Z" finished-at="2016-07-29T06:02:45Z">
+    <test name="Test" duration-ms="0" started-at="2016-08-08T06:03:17Z" finished-at="2016-08-08T06:03:17Z">
       <class name="BasicStringExamples.SplitString">
-        <test-method status="PASS" signature="splitStringExample()[pri:0, instance:BasicStringExamples.SplitString@7d9d1a19]" name="splitStringExample" duration-ms="0" started-at="2016-07-29T11:32:45Z" finished-at="2016-07-29T11:32:45Z">
+        <test-method status="PASS" signature="splitStringExample()[pri:0, instance:BasicStringExamples.SplitString@7d9d1a19]" name="splitStringExample" duration-ms="0" started-at="2016-08-08T11:33:17Z" finished-at="2016-08-08T11:33:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- splitStringExample -->
