@@ -29,8 +29,10 @@ public class checkboxes_Example1 {
 		//If bValue = true then first radio-button is selected, so click on second radio-button. Else,
 		//If bValue = false , then second radio-button is selected..so, we have to click on first radio-button.
 		if(bValue = true){
+			System.out.println("Click on Second Radio-button.");
 			objRadiobtn.get(1).click();
 		}else {
+			System.out.println("Click on First Radio-button.");
 			objRadiobtn.get(0).click();
 		}
 		
