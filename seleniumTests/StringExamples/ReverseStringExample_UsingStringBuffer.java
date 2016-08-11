@@ -4,7 +4,7 @@ public class ReverseStringExample_UsingStringBuffer {
 
 	public static void main(String[] args) {
 
-		//Reverse a string using StringBuffer class
+		//Reverse a string using String Buffer class
 		StringBuffer string = new StringBuffer("Java is a object-oriented programming language.");
 		System.out.println(string.reverse());
 		
