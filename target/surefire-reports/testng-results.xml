@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[2016-08-09 11:32:38.588 :: Connected to the database - 'employeemgmt'<br />]]>
+      <![CDATA[2016-08-11 11:32:40.552 :: Connected to the database - 'employeemgmt'<br />]]>
     </line>
     <line>
-      <![CDATA[2016-08-09 11:32:38.637 :: 2  Ravi Kumar Kukatpally Hyderbad<br />]]>
+      <![CDATA[2016-08-11 11:32:40.658 :: 2  Ravi Kumar Kukatpally Hyderbad<br />]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="257" started-at="2016-08-09T06:02:38Z" finished-at="2016-08-09T06:02:38Z">
+  <suite name="Suite" duration-ms="336" started-at="2016-08-11T06:02:40Z" finished-at="2016-08-11T06:02:40Z">
     <groups>
     </groups>
-    <test name="jdbcConnection" duration-ms="257" started-at="2016-08-09T06:02:38Z" finished-at="2016-08-09T06:02:38Z">
+    <test name="jdbcConnection" duration-ms="336" started-at="2016-08-11T06:02:40Z" finished-at="2016-08-11T06:02:40Z">
       <class name="jdbcPrograms.ConnectJDBC">
-        <test-method status="PASS" signature="setJDBCConnection()[pri:1, instance:jdbcPrograms.ConnectJDBC@3ffc5af1]" name="setJDBCConnection" duration-ms="241" started-at="2016-08-09T11:32:38Z" finished-at="2016-08-09T11:32:38Z">
+        <test-method status="PASS" signature="setJDBCConnection()[pri:1, instance:jdbcPrograms.ConnectJDBC@3ffc5af1]" name="setJDBCConnection" duration-ms="319" started-at="2016-08-11T11:32:40Z" finished-at="2016-08-11T11:32:40Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-08-09 11:32:38.588 :: Connected to the database - 'employeemgmt'<br />]]>
+              <![CDATA[2016-08-11 11:32:40.552 :: Connected to the database - 'employeemgmt'<br />]]>
             </line>
             <line>
-              <![CDATA[2016-08-09 11:32:38.637 :: 2  Ravi Kumar Kukatpally Hyderbad<br />]]>
+              <![CDATA[2016-08-11 11:32:40.658 :: 2  Ravi Kumar Kukatpally Hyderbad<br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- setJDBCConnection -->
       </class> <!-- jdbcPrograms.ConnectJDBC -->
     </test> <!-- jdbcConnection -->
   </suite> <!-- Suite -->
-  <suite name="Suite (0)" duration-ms="3" started-at="2016-08-09T06:02:38Z" finished-at="2016-08-09T06:02:38Z">
+  <suite name="Suite (0)" duration-ms="0" started-at="2016-08-11T06:02:40Z" finished-at="2016-08-11T06:02:40Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="3" started-at="2016-08-09T06:02:38Z" finished-at="2016-08-09T06:02:38Z">
+    <test name="Test" duration-ms="0" started-at="2016-08-11T06:02:40Z" finished-at="2016-08-11T06:02:40Z">
       <class name="BasicStringExamples.SplitString">
-        <test-method status="PASS" signature="splitStringExample()[pri:0, instance:BasicStringExamples.SplitString@7d9d1a19]" name="splitStringExample" duration-ms="1" started-at="2016-08-09T11:32:38Z" finished-at="2016-08-09T11:32:38Z">
+        <test-method status="PASS" signature="splitStringExample()[pri:0, instance:BasicStringExamples.SplitString@7d9d1a19]" name="splitStringExample" duration-ms="0" started-at="2016-08-11T11:32:40Z" finished-at="2016-08-11T11:32:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- splitStringExample -->

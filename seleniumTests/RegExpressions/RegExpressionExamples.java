@@ -1,5 +1,6 @@
 package RegExpressions;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class RegExpressionExamples {
@@ -24,6 +25,15 @@ public class RegExpressionExamples {
 		
 		Pattern pattern = Pattern.compile(patternMatch1, Pattern.CASE_INSENSITIVE);
 		
+	}
+	
+	public void  PatternmatcherMethod(){
+		String content = "This is a tutorial Website!";
+		String patternString = ".*tuToRiAl.*";
+		Pattern pattern = Pattern.compile(patternString, Pattern.CASE_INSENSITIVE);
+		Matcher matcher = pattern.matcher(content);
+		boolean isMatched = matcher.matches();
+		System.out.println("Is it a Match?" + isMatched);
 	}
 }
 
