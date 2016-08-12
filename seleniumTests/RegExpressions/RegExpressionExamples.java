@@ -8,6 +8,7 @@ public class RegExpressionExamples {
 		RegExpressionExamples regexExmples = new RegExpressionExamples();
 		regexExmples.regexMatchesMethod();
 		regexExmples.regexPatternCompile();
+		regexExmples.PatternmatcherMethod();
 		
 	}
 	
