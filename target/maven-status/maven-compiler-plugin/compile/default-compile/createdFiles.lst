@@ -45,6 +45,8 @@ JavaDateClass\DateClassExamples.class
 BasicJavaPrograms\File_IO_operations\WriteStringContent_ToAFile.class
 readDataFromPropertiesFile\RedditLogin_UsingChrome$1.class
 interface_Examples\interface1.class
+alertHandler\HandleAlertsAndPopUps$1.class
+alertHandler\HandleAlertsAndPopUps.class
 Utils\Mouse.class
 Utils\TestReporter.class
 browserFunction\launchBrowser$2.class
@@ -53,6 +55,7 @@ readDataFromPropertiesFile\RedditLogin_UsingFirefox$1.class
 readDataFromPropertiesFile\RedditLogin_UsingChrome.class
 finalKeyword_Concepts\finalMethod_Example.class
 robotClassExamples\robotClassUsingTestNG.class
+windowHandler\handleWindows$1.class
 browserFunction\launchBrowser.class
 Utils\Datatable.class
 ArrayUtil.class
@@ -69,6 +72,7 @@ customHtmlReports\TestNGCustomReportListener$TestMethodSorter.class
 BasicJavaPrograms\File_IO_operations\ReadFileContent_LineByLine.class
 browserFunction\launchBrowser$3.class
 DynamicXPathConcepts\Approach1.class
+windowHandler\handleWindows.class
 customHtmlReports\TestNGCustomReportListener$TestSorter.class
 test.class
 fileUploading\uploadFile_Using_SendKeysMethod$1.class
