@@ -22,10 +22,10 @@ Utils\WebDriverSetUp.class
 BasicJavaPrograms\HandlingPOPUPs\Handling_JavaScriptAlert_Example.class
 Utils\HighlightElement.class
 finalKeyword_Concepts\finalVariable_Example.class
+sampleTest.class
 TestCases\Read_CSV_FileUsingJava.class
 dragAndDropExample\DragAndDrop_Operation_usingActionsClass$1.class
 BasicJavaPrograms\File_IO_operations\Get_ListofAllFileNames_fromGivenFolder.class
-car.class
 Utils\date\SimpleDate.class
 Utils\TestListener.class
 BasicJavaPrograms\File_IO_operations\Get_SpecificFiles_FromAFolder$1.class
@@ -38,7 +38,6 @@ Utils\Randomness.class
 Utils\Constants.class
 customHtmlReports\TestNGCustomReportListener$1.class
 Utils\CheckboxesHandling.class
-vehicle.class
 BasicStringExamples\ReplaceStringCharacter.class
 interface_Examples\extendInterfaces.class
 JavaDateClass\DateClassExamples.class
@@ -58,7 +57,6 @@ robotClassExamples\robotClassUsingTestNG.class
 windowHandler\handleWindows$1.class
 browserFunction\launchBrowser.class
 Utils\Datatable.class
-ArrayUtil.class
 BasicJavaPrograms\HandlingPOPUPs\Handling_PromptMessage.class
 ExcelUtils\ExcelFunctions.class
 TestCases\UtilityClassesExamples.class
@@ -74,7 +72,6 @@ browserFunction\launchBrowser$3.class
 DynamicXPathConcepts\Approach1.class
 windowHandler\handleWindows.class
 customHtmlReports\TestNGCustomReportListener$TestSorter.class
-test.class
 fileUploading\uploadFile_Using_SendKeysMethod$1.class
 interface_Examples\mainProgram.class
 Utils\SimpleDateAndCalendar.class
